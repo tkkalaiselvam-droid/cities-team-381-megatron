@@ -1,6 +1,5 @@
 const nextConfig = {
-  reactStrictMode: true,
-  appDir: "src/frontend"
+  reactStrictMode: true
 };
 
 export default nextConfig;
