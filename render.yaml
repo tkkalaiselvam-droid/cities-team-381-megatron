@@ -11,5 +11,5 @@ services:
     repo: https://github.com/Build-with-AI-Code-for-Communities/cities-team-381-megatron
     branch: main
     autoDeploy: true
-    healthCheckPath: /
+    healthCheckPath: /health
     rootDir: .
