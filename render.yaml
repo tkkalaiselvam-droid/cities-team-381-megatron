@@ -1,0 +1,15 @@
+services:
+  - type: web_service
+    name: cities-team-381-megatron-frontend
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+    repo: https://github.com/your-org/cities-team-381-megatron
+    branch: main
+    autoDeploy: true
+    healthCheckPath: /
+    rootDir: .
